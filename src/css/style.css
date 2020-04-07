@@ -1,0 +1,28 @@
+/* purgecss start ignore */
+@tailwind base;
+
+html,
+body {
+  @apply bg-discord-100 font-sans antialiased;
+}
+
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+.fancy-underline:after {
+  @apply absolute left-0 bottom-0 h-1 bg-discord-primary block rounded-full w-full transform scale-x-0 transition duration-200 ease-in-out opacity-75 origin-left;
+  content: '';
+}
+
+.fancy-underline:hover:after,
+.fancy-underline:focus:after {
+  @apply w-full scale-x-50 opacity-100;
+}
+
+.centered {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
