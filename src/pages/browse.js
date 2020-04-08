@@ -1,4 +1,4 @@
-import { attributes } from '~/content/home.md'
+import { attributes } from '~/content/browse.md'
 import TemplateCard from '~/components/TemplateCard'
 
 const { heading, leading } = attributes
@@ -23,34 +23,13 @@ const Home = () => {
               <p className="text-discord-600 font-medium text-lg lg:w-5/6">
                 {leading}
               </p>
-              <div className="flex flex-wrap -m-2 mt-6 sm:mt-10">
-                <a
-                  href="#"
-                  className="leading-5 py-5 font-bold px-6 m-2 bg-discord-primary rounded-lg transition duration-200 ease-in-out hover:bg-discord-primary-dark"
-                >
-                  Check it out, it's free!
-                </a>
-                <a
-                  href="#"
-                  className="leading-5 py-5 font-bold px-6 m-2 border-2 border-discord-600 text-discord-600 rounded-lg transition duration-200 ease-in-out hover:border-discord-500 hover:text-discord-500"
-                >
-                  Random Template
-                </a>
-              </div>
-            </div>
-            <div className="col md:w-1/3 lg:w-1/2 self-center hidden md:block">
-              <button className="text-discord-success flex text-xl font-bold justify-center items-center mx-auto transition duration-200 ease-in-out hover:text-white bg-discord-300 px-8 lg:px-10 py-6 lg:py-8 rounded-lg shadow-lg border-2 border-discord-success hover:border-white w-full sm:w-auto">
-                <Plus className="w-6 lg:w-10 fill-current block mr-1 lg:mr-2 opacity-50" />
-                Create{' '}
-                <span className="hidden lg:inline">&nbsp;a template</span>
-              </button>
             </div>
           </div>
         </div>
       </div>
       <div className="py-8 sm:py-10 md:py-12">
         <div className="container">
-        <a href="template1" className="row -mb-8">
+          <a href="template1" className="row -mb-8">
             <TemplateCard
               title="Lorem ipsum"
               name="Tom Cook"

@@ -1,4 +1,4 @@
-import { attributes } from '~/content/home.md'
+import { attributes } from '~/content/template.md'
 import TemplateCard from '~/components/TemplateCard'
 
 const { heading, leading } = attributes
@@ -18,38 +18,37 @@ const Home = () => {
           <div className="row">
             <div className="col md:w-2/3 lg:w-1/2 text-white">
               <h1 className="text-4xl font-bold mb-4 leading-tight">
-                {heading}
+              templatename
               </h1>
               <p className="text-discord-600 font-medium text-lg lg:w-5/6">
-                {leading}
+                templatedescription
               </p>
-              <div className="flex flex-wrap -m-2 mt-6 sm:mt-10">
-                <a
-                  href="#"
-                  className="leading-5 py-5 font-bold px-6 m-2 bg-discord-primary rounded-lg transition duration-200 ease-in-out hover:bg-discord-primary-dark"
-                >
-                  Check it out, it's free!
-                </a>
-                <a
-                  href="#"
-                  className="leading-5 py-5 font-bold px-6 m-2 border-2 border-discord-600 text-discord-600 rounded-lg transition duration-200 ease-in-out hover:border-discord-500 hover:text-discord-500"
-                >
-                  Random Template
-                </a>
-              </div>
+              <p className="text-discord-600 font-medium text-lg lg:w-5/6">
+                27 people using this template
+              </p>
+              <p className="text-discord-500  font-medium text-lg lg:w-5/6 py-4">
+                Made by audn#1580 
+              </p>
             </div>
             <div className="col md:w-1/3 lg:w-1/2 self-center hidden md:block">
-              <button className="text-discord-success flex text-xl font-bold justify-center items-center mx-auto transition duration-200 ease-in-out hover:text-white bg-discord-300 px-8 lg:px-10 py-6 lg:py-8 rounded-lg shadow-lg border-2 border-discord-success hover:border-white w-full sm:w-auto">
-                <Plus className="w-6 lg:w-10 fill-current block mr-1 lg:mr-2 opacity-50" />
-                Create{' '}
-                <span className="hidden lg:inline">&nbsp;a template</span>
-              </button>
-            </div>
-          </div>
-        </div>
+              <div className="text-discord-600 bg-discord-200 m-4 w-1/2 p-5 rounded-md">
+                <div className="uppercase font-bold">
+                categoryname
+                </div>
+                <div className="block pl-2 hover:bg-discord-700 hover:rounded-full">
+                 <span class="pr-2 text-xl text-discord-500">#</span>   textchannel
+                </div>
+              </div>
+           </div> 
+       </div>
       </div>
+     </div> 
+
       <div className="py-8 sm:py-10 md:py-12">
         <div className="container">
+        <p className="text-discord-600 font-medium text-lg lg:w-5/6 pb-8">
+            Maybe these ones will help?
+        </p>
         <a href="template1" className="row -mb-8">
             <TemplateCard
               title="Lorem ipsum"

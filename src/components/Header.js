@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 const nav = [
   {
     title: 'Home',
-    url: '/home',
+    url: '/',
     active: true
   },
   {
