@@ -88,7 +88,7 @@ const Home = () => {
               <p>&nbsp;</p>
               <div className="text-discord-500 bg-discord-200 mx-auto w-1/2 p-5 rounded-md">
                 <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
-                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-discord-success">
+                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-white">
                     <span className="align-middle inline-block h-4 mr-2 w-3 pr-4 rounded-full bg-discord-success ">
                       &nbsp;
                     </span>
@@ -96,7 +96,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
-                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-discord-success">
+                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-white">
                     <span className="align-middle inline-block h-4 mr-2 w-3 pr-4 rounded-full bg-discord-success ">
                       &nbsp;
                     </span>
@@ -104,7 +104,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
-                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-discord-success">
+                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-white">
                     <span className="align-middle inline-block h-4 mr-2 w-3 pr-4 rounded-full bg-discord-success ">
                       &nbsp;
                     </span>
@@ -112,7 +112,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
-                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-discord-success">
+                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-white">
                     <span className="align-middle inline-block h-4 mr-2 w-3 pr-4 rounded-full bg-discord-success ">
                       &nbsp;
                     </span>
@@ -120,7 +120,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
-                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-discord-success">
+                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-white">
                     <span className="align-middle inline-block h-4 mr-2 w-3 pr-4 rounded-full bg-discord-success ">
                       &nbsp;
                     </span>
