@@ -28,7 +28,7 @@ const Home = () => {
                   href="#"
                   className="leading-5 py-5 font-bold px-6 m-2 bg-discord-primary rounded-lg transition duration-200 ease-in-out hover:bg-discord-primary-dark"
                 >
-                  Check it out, it's free!
+                  Check it out, it's free! hello
                 </a>
                 <a
                   href="#"
