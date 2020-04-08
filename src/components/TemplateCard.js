@@ -46,8 +46,11 @@ const TemplateCard = ({
             </div>
           </div>
           <ul className="flex -mx-1 mt-2">
-            {tags.map((tag) => (
-              <li className="mx-1 border-2 border-discord-primary leading-none whitespace-no-wrap text-xs py-1 px-2 rounded-full text-white">
+            {tags.map((tag, i) => (
+              <li
+                key={i}
+                className="mx-1 border-2 border-discord-primary leading-none whitespace-no-wrap text-xs py-1 px-2 rounded-full text-white"
+              >
                 {tag}
               </li>
             ))}
