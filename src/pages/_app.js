@@ -7,8 +7,14 @@ const MyApp = ({ Component, pageProps, router }) => {
     <Layout>
       <Head>
         <link rel="stylesheet" href="https://use.typekit.net/wsc2hzy.css" />
-      </Head>
-      <Component {...pageProps} key={router.route} />
+        <link
+          rel="stylesheet"
+          href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css"
+          integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH"
+          crossorigin="anonymous"
+        />
+      </Head>{' '}
+      <Component {...pageProps} key={router.route} />{' '}
     </Layout>
   )
 }

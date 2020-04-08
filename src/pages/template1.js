@@ -18,7 +18,7 @@ const Home = () => {
           <div className="row">
             <div className="col md:w-2/3 lg:w-1/2 text-white">
               <h1 className="text-4xl font-bold mb-4 leading-tight">
-              templatename
+                templatename
               </h1>
               <p className="text-discord-600 font-medium text-lg lg:w-5/6">
                 templatedescription
@@ -27,29 +27,117 @@ const Home = () => {
                 27 people using this template
               </p>
               <p className="text-discord-500  font-medium text-lg lg:w-5/6 py-4">
-                Made by audn#1580 
+                Made by audn#1580
               </p>
             </div>
             <div className="col md:w-1/3 lg:w-1/2 self-center hidden md:block">
-              <div className="text-discord-600 bg-discord-200 m-4 w-1/2 p-5 rounded-md">
-                <div className="uppercase font-bold">
-                categoryname
+              <div className="text-discord-500 bg-discord-200 mx-auto w-1/2 p-5 rounded-md">
+                <div className="uppercase font-bold pt-2 pb-2 text-xs">
+                  <i class="fas fa-caret-down text-discord-400"></i>{' '}
+                  categoryname
                 </div>
-                <div className="block pl-2 hover:bg-discord-700 hover:rounded-full">
-                 <span class="pr-2 text-xl text-discord-500">#</span>   textchannel
+                <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
+                  <span class="pr-2 text-2xl text-discord-500 align-middle">
+                    #
+                  </span>{' '}
+                  textchannel
+                </div>
+                <div className="uppercase font-bold pt-2 pb-2 text-xs">
+                  <i class="fas fa-caret-down text-discord-400"></i>{' '}
+                  categoryname
+                </div>
+                <div
+                  className="block pl-2 hover:bg-discord-700 hover:rounded-full"
+                  align-middle
+                >
+                  <span class="pr-2 text-2xl text-discord-500 align-middle">
+                    #
+                  </span>{' '}
+                  textchannel
+                </div>
+                <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
+                  <span class="pr-2 text-2xl text-discord-500 align-middle">
+                    #
+                  </span>{' '}
+                  textchannel
+                </div>
+                <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
+                  <span class="pr-2 text-2xl text-discord-500 align-middle">
+                    #
+                  </span>{' '}
+                  textchannel
+                </div>
+                <div className="uppercase font-bold pt-2 pb-2 text-xs">
+                  <i class="fas fa-caret-down text-discord-400"></i>{' '}
+                  categoryname
+                </div>
+                <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
+                  <span class="pr-2 text-2xl text-discord-500 align-middle ">
+                    #
+                  </span>{' '}
+                  textchannel
+                </div>
+                <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
+                  <span class="pr-2 text-xl text-discord-500 align-middle">
+                    {' '}
+                    <i class="fad fa-volume"> </i>
+                  </span>{' '}
+                  textchannel
                 </div>
               </div>
-           </div> 
-       </div>
+              <p>&nbsp;</p>
+              <div className="text-discord-500 bg-discord-200 mx-auto w-1/2 p-5 rounded-md">
+                <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
+                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-discord-success">
+                    <span className="align-middle inline-block h-4 mr-2 w-3 pr-4 rounded-full bg-discord-success ">
+                      &nbsp;
+                    </span>
+                    role
+                  </div>
+                </div>
+                <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
+                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-discord-success">
+                    <span className="align-middle inline-block h-4 mr-2 w-3 pr-4 rounded-full bg-discord-success ">
+                      &nbsp;
+                    </span>
+                    role
+                  </div>
+                </div>
+                <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
+                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-discord-success">
+                    <span className="align-middle inline-block h-4 mr-2 w-3 pr-4 rounded-full bg-discord-success ">
+                      &nbsp;
+                    </span>
+                    role
+                  </div>
+                </div>
+                <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
+                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-discord-success">
+                    <span className="align-middle inline-block h-4 mr-2 w-3 pr-4 rounded-full bg-discord-success ">
+                      &nbsp;
+                    </span>
+                    role
+                  </div>
+                </div>
+                <div className="block pl-2 hover:bg-discord-700 hover:rounded-full align-middle">
+                  <div class=" py-1 px-4 inline-block align-middle rounded-full border-discord-success border-solid border-2 text-discord-success">
+                    <span className="align-middle inline-block h-4 mr-2 w-3 pr-4 rounded-full bg-discord-success ">
+                      &nbsp;
+                    </span>
+                    role
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-     </div> 
-
       <div className="py-8 sm:py-10 md:py-12">
         <div className="container">
-        <p className="text-discord-600 font-medium text-lg lg:w-5/6 pb-8">
+          <p className="text-discord-600 font-medium text-lg lg:w-5/6 pb-8">
             Maybe these ones will help?
-        </p>
-        <a href="template1" className="row -mb-8">
+          </p>
+          <a href="template1" className="row -mb-8">
             <TemplateCard
               title="Lorem ipsum"
               name="Tom Cook"
