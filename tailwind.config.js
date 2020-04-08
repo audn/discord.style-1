@@ -16,7 +16,8 @@ module.exports = {
           primary: '#7a8dd6',
           'primary-dark': '#5868a7',
           success: '#5fcc80',
-          fail: '#b74343'
+          fail: '#b74343',
+          logo: '#e00072'
         }
       },
       fontFamily: {
